@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# hacky check for mounted tweb directory. TODO fix this
+while [ ! -d /vagrant/tweb ]; do sleep 1; done
+cd /vagrant/tweb
+
+exec setuidgid vagrant twanager server tweb.local 8080
