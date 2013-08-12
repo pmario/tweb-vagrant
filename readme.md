@@ -28,27 +28,28 @@ TiddlyWeb at Home - Vagrant
  * create an instance directory eg: tiddlyweb
  * extract the `Vagrantfile` and the `assets` folder to your instance directory
  * cd tiddlyweb
- * continue with `Start the TiddlyWeb Instance`
-
-### Installation Using git
- 
- * git clone https://github.com/pmario/tweb-vagrant.git
- * cd tweb-vagrant
- * continue with `Start the TiddlyWeb Instance`
 
 ### Start a TiddlyWeb Instance
 
  * make sure you are at your instance directory.
  * `vagrant up`
  
- ... the first run will take several minutes
+ ... the first run will need several minutes
  
-  * `vagrant reload` ... is needed to autostart the TiddlyWeb server
+ * `vagrant reload` ... is needed to autostart the TiddlyWeb server
 
 **click**: http://tweb.local:8080/default ... to open the default TiddlyWiki<br />
 **click**: http://tweb.local:8080 ... to open tiddlyweb 
 
-have fun!
+### Installation Using git
+
+```
+git clone https://github.com/pmario/tweb-vagrant.git
+cd tweb-vagrant
+vagrant up
+```
+
+have fun!<br />
 mario
 
 **Vagrant Documentation**
