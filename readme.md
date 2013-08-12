@@ -45,7 +45,7 @@ TiddlyWeb at Home - Vagrant
  
   * `vagrant reload` ... is needed to autostart the TiddlyWeb server
 
-**click**: http://tweb.local:8080/default ... to open the default TiddlyWiki
+**click**: http://tweb.local:8080/default ... to open the default TiddlyWiki<br />
 **click**: http://tweb.local:8080 ... to open tiddlyweb 
 
 have fun!
