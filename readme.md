@@ -22,7 +22,7 @@ TiddlyWeb at Home - Vagrant
 192.168.3.10	tweb.local
 ```
 
-### Installation Using the Release Version (may be out of date but stable)
+### Installation Using the Release Version (stable)
 
  * Download the latest release at: https://github.com/pmario/tweb-vagrant/releases
  * create an instance directory eg: tiddlyweb
@@ -41,7 +41,7 @@ TiddlyWeb at Home - Vagrant
 **click**: http://tweb.local:8080/default ... to open the default TiddlyWiki<br />
 **click**: http://tweb.local:8080 ... to open tiddlyweb 
 
-### Installation Using git
+### Installation Using git (dev)
 
 ```
 git clone https://github.com/pmario/tweb-vagrant.git
